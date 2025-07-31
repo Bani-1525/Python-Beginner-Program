@@ -1,42 +1,45 @@
-# 🔐 Random Password Generator
+# 🔐 Random Password Generator (Python)
 
-A simple yet effective Python-based **Random Password Generator** that helps you create strong, secure passwords using a combination of letters, digits, and special characters.
-
----
-
-## 🚀 Features
-
-- Generates **random passwords** of custom length
-- Includes:
-  - ✅ Uppercase and lowercase letters
-  - ✅ Digits (0–9)
-  - ✅ Punctuation/special characters (!, @, #, etc.)
-- Uses Python’s built-in `random` and `string` modules
-- Lightweight and beginner-friendly
+This is a simple **Python mini-project** that generates a **strong random password** using letters, digits, and special characters.  
+It demonstrates string handling and use of the `random` module.
 
 ---
 
-## 📂 Project Structure
+## 💡 Project Description
+
+We generate a secure password using:
+
+- Letters (uppercase & lowercase)
+- Numbers (0–9)
+- Special characters (like `!@#$%` etc.)
+
+Password length can be easily adjusted via a variable in the script.
 
 ---
 
 ## 🧠 Concepts Used
 
-- `random.choice()` for character selection
-- `string.ascii_letters`, `string.digits`, `string.punctuation` for character pools
-- Looping to append characters
-- Concatenation to form final password
+- Python built-in modules: `random`, `string`
+- String concatenation and loops
+- `random.choice()` for random selection
+- ASCII letters, digits, punctuation handling
 
 ---
 
-## 🛠️ How It Works
+## 📁 File Structure
 
-1. Set the desired password length (default: 12)
-2. Combine all valid characters into one pool
-3. Randomly pick characters using `random.choice`
-4. Append each character to build the final password
-5. Display the generated password to the user
+| File Name          | Description                                  |
+| ------------------ | -------------------------------------------- |
+| `miniproject_2.py` | Main file that generates the random password |
 
 ---
 
-## 📌 Example Output
+## ▶️ How to Run
+
+1. Make sure you have **Python 3.x** installed
+2. Open terminal in this folder
+3. Run the script:
+
+```bash
+python miniproject_2.py
+```
